@@ -1,0 +1,44 @@
+:root{
+  --mainblue:#2a2a72;
+  --lightblue:#009ffd;
+  --mainwhite:#f3f3f3;
+  --maindark:#232528;
+  --mainyellow:#ffa400;
+}
+body{
+  background-color: var(rgb(220, 220, 220)) !important;
+  color:var(--maindark) !important;
+}
+.text-title{
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue{
+  color:var(--mainblue)
+}
+button.sc-bdnyFh.bTRhtA {
+  margin: 0.8rem;
+}
+.bg-hum{
+  background-color: #f5f5f5;
+}
+.default{
+  background-color: red;
+  
+}
+
+.btn-black{
+  background-color: transparent;
+  font-size: 0.6rem !important;
+  color: #232528;
+  border-radius: 0.03rem !important;
+  border:0.1rem solid var(--maindark) !important
+}
+.btn-black:hover{
+  background-color: #232528 !important;
+  color: #f3f3f3 !important;
+}
+.hum{
+  display: flex;
+  align-items: flex-end;
+}
